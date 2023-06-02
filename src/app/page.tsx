@@ -46,49 +46,80 @@ export default function Home() {
           <h1 className="font-bold text-4xl mt-10"> Good Afternoon </h1>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <a className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
-              <Image src="/album.jpg" width={104} height={104} alt="Capa do Album do Pink Floyd" />
+            <a className='bg-white/5 group rounded-md flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" width={120} height={120} alt="Capa do Album do Pink Floyd" />
+              <strong> The Dark Side of the Moon </strong>
+              <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play fill='bg-black' />
+              </button>
+            </a>
+            <a className='bg-white/5 group rounded-md flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" width={120} height={120} alt="Capa do Album do Pink Floyd" />
+              <strong> The Dark Side of the Moon </strong>
+              <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play fill='bg-black' />
+              </button>
+            </a>
+            <a className='bg-white/5 group rounded-md flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" width={120} height={120} alt="Capa do Album do Pink Floyd" />
+              <strong> The Dark Side of the Moon </strong>
+              <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play fill='bg-black' />
+              </button>
+            </a>
+            <a className='bg-white/5 group rounded-md flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" width={120} height={120} alt="Capa do Album do Pink Floyd" />
+              <strong> The Dark Side of the Moon </strong>
+              <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play fill='bg-black' />
+              </button>
+            </a>
+            <a className='bg-white/5 group rounded-md flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" width={120} height={120} alt="Capa do Album do Pink Floyd" />
               <strong> The Dark Side of the Moon </strong>
               <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                 <Play fill='bg-black' />
               </button>
             </a>
             <a className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
-              <Image src="/album.jpg" width={104} height={104} alt="Capa do Album do Pink Floyd" />
-              <strong> The Dark Side of the Moon </strong>
-              <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play fill='bg-black' />
-              </button>
-            </a>
-            <a className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
-              <Image src="/album.jpg" width={104} height={104} alt="Capa do Album do Pink Floyd" />
-              <strong> The Dark Side of the Moon </strong>
-              <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play fill='bg-black' />
-              </button>
-            </a>
-            <a className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
-              <Image src="/album.jpg" width={104} height={104} alt="Capa do Album do Pink Floyd" />
-              <strong> The Dark Side of the Moon </strong>
-              <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play fill='bg-black' />
-              </button>
-            </a>
-            <a className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
-              <Image src="/album.jpg" width={104} height={104} alt="Capa do Album do Pink Floyd" />
-              <strong> The Dark Side of the Moon </strong>
-              <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play fill='bg-black' />
-              </button>
-            </a>
-            <a className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
-              <Image src="/album.jpg" width={104} height={104} alt="Capa do Album do Pink Floyd" />
+              <Image src="/album.jpg" width={120} height={120} alt="Capa do Album do Pink Floyd" />
               <strong> The Dark Side of the Moon </strong>
               <button className="h-12 w-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                 <Play fill='bg-black' />
               </button>
             </a>
           </div>
+
+          <h2 className="font-bold text-2xl mt-10"> Made for Matheus </h2>
+
+          <div className="grid grid-cols-8 gap-4 mt-4">
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white-10">
+              <Image className='w-full' src="/album2.jpg" width={120} height={120} alt="Capa do Album do Foo Fighters" />
+              <strong className="font-semibold"> Daily Mix 1 </strong>
+              <span className='text-sm text-zinc-400'> Wallow, COINm, girl in red and more</span>
+            </a>
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white-10">
+              <Image className='w-full' src="/album2.jpg" width={120} height={120} alt="Capa do Album do Foo Fighters" />
+              <strong className="font-semibold"> Daily Mix 1 </strong>
+              <span className='text-sm text-zinc-400'> Wallow, COINm, girl in red and more</span>
+            </a>
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white-10">
+              <Image className='w-full' src="/album2.jpg" width={120} height={120} alt="Capa do Album do Foo Fighters" />
+              <strong className="font-semibold"> Daily Mix 1 </strong>
+              <span className='text-sm text-zinc-400'> Wallow, COINm, girl in red and more</span>
+            </a>
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white-10">
+              <Image className='w-full' src="/album2.jpg" width={120} height={120} alt="Capa do Album do Foo Fighters" />
+              <strong className="font-semibold"> Daily Mix 1 </strong>
+              <span className='text-sm text-zinc-400'> Wallow, COINm, girl in red and more</span>
+            </a>
+            <a href="" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white-10">
+              <Image className='w-full' src="/album2.jpg" width={120} height={120} alt="Capa do Album do Foo Fighters" />
+              <strong className="font-semibold"> Daily Mix 1 </strong>
+              <span className='text-sm text-zinc-400'> Wallow, COINm, girl in red and more</span>
+            </a>
+          </div>
+
         </main>
       </div>
       <footer className="bg-zinc-800 border-zinc-700 p-6">footer</footer>
